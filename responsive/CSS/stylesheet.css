@@ -227,12 +227,11 @@ img#faceRight, img#faceUp {
 }
 	table
 {
-	/* CHANGED */
 	position:absolute;
 	width:490px;
 	line-height:2.8em;
-	/*margin:0 0 0 50px*/
 	margin: 0 0 0 calc(50% - 440px);
+	color: black;
 }
 	table a
 {
@@ -295,16 +294,17 @@ img#faceRight, img#faceUp {
 }
 	img#equalizer-name
 {
-	/*width:100%;*/
 	max-width: 80%;
 	margin: 0 auto;
 	width: auto;
+
 }
 	p#hank-music-text
 {
 	margin:auto;
 	width:60%;
-	text-align:justify
+	text-align:justify;
+	line-height: 1.2em;
 }
 	#tyler-credit
 {

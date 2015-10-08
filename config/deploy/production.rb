@@ -52,10 +52,10 @@
 server '160.16.63.151',
   user: 'henryehly',
   roles: %w{web app},
-  # ssh_options: {
+  ssh_options: {
   #   user: 'user_name', # overrides user setting above
   #   keys: %w(/home/user_name/.ssh/id_rsa),
   #   forward_agent: false,
   #   auth_methods: %w(publickey password)
     # password: 'please use keys'
-  # }
+  }

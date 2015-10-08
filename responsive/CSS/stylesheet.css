@@ -56,6 +56,17 @@
 {
 	color:#3b3b3b
 }
+#headline section 
+{
+	position: absolute;
+  width: 100%;
+  top: 50px;
+}
+#headline section a
+{
+	text-decoration: none;
+  color: #b2b2b2;
+}
 	#lineGradient
 {
 	width:auto;

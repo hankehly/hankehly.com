@@ -1,0 +1,26 @@
+{
+  "name": "hankehly.com",
+  "version": "1.0.0",
+  "homepage": "hankehly.com",
+  "authors": [
+    "henry.ehly@gmail.com"
+  ],
+  "description": "hankehly.com",
+  "keywords": [
+    "hank",
+    "ehly",
+    "hankehly",
+    "hankehly.com"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

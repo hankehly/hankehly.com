@@ -1,9 +1,6 @@
 # config valid only for current version of Capistrano
 lock '3.4.0'
 
-set :user, "henryehly"
-set :stage, "production"
-
 set :application, 'hankehly.com'
 set :repo_url, 'git@github.com:hehly/hankehly.com.git'
 
@@ -39,7 +36,7 @@ set :use_sudo, false
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 
 # Default value for keep_releases is 5
-# set :keep_releases, 5
+set :keep_releases, 2
 
 namespace :deploy do
 

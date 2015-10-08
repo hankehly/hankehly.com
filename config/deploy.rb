@@ -41,8 +41,6 @@ set :use_sudo, false
 # Default value for keep_releases is 5
 # set :keep_releases, 5
 
-server "henryehly@160.16.63.151", roles: [:app, :web, :db], :primary => true
-
 namespace :deploy do
 
   after :restart, :clear_cache do

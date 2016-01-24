@@ -60,6 +60,10 @@
   left: 50%;
   transform: translate(-50%,0);
 }
+#headline a:hover 
+{
+	text-decoration: underline;
+}
 	#headline span
 {
 	color:#3b3b3b

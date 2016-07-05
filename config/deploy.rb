@@ -2,7 +2,7 @@
 lock '3.4.0'
 
 set :application, 'hankehly.com'
-set :repo_url, 'git@home.github.com:hehly/hankehly.com.git'
+set :repo_url, 'git@home.github.com:hank-ehly/hankehly.com.git'
 
 set :ssh_options, { :forward_agent => true }
 

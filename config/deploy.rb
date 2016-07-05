@@ -2,7 +2,7 @@
 lock '3.4.0'
 
 set :application, 'hankehly.com'
-set :repo_url, 'git@github.com:hehly/hankehly.com.git'
+set :repo_url, 'git@home.github.com:hehly/hankehly.com.git'
 
 set :ssh_options, { :forward_agent => true, :port => 4321 }
 
@@ -36,7 +36,7 @@ set :use_sudo, false
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 
 # Default value for keep_releases is 5
-set :keep_releases, 2
+set :keep_releases, 3
 
 namespace :deploy do
 

@@ -2,9 +2,7 @@
 lock '3.4.0'
 
 set :application, 'hankehly.com'
-set :repo_url, 'git@home.github.com:hank-ehly/hankehly.com.git'
-
-set :ssh_options, { :forward_agent => true }
+set :repo_url, 'git@github.com_hankehly.com:hank-ehly/hankehly.com.git'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp

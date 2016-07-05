@@ -7,7 +7,7 @@
 # server 'example.com', user: 'deploy', roles: %w{app web}, other_property: :other_value
 # server 'db.example.com', user: 'deploy', roles: %w{db}
 
-server '160.16.63.151'
+server '160.16.63.151', ssh_options: { forward_agent: false }
 
 # role-based syntax
 # ==================

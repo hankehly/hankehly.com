@@ -20,10 +20,10 @@
         </div>
         
     
-        <img src="responsive/images/contact_backgrounds/Shibuya2.png">
-        <img src="responsive/images/contact_backgrounds/Shibuya1.png">
-        <img src="responsive/images/contact_backgrounds/Kansas_City.png">
-        <img src="responsive/images/contact_backgrounds/Tokyo_Tower.png">
+        <img src="responsive/images/contact_backgrounds/Shibuya2.jpg">
+        <img src="responsive/images/contact_backgrounds/Shibuya1.jpg">
+        <img src="responsive/images/contact_backgrounds/Kansas_City.jpg">
+        <img src="responsive/images/contact_backgrounds/Tokyo_Tower.jpg">
     
     </div>
 

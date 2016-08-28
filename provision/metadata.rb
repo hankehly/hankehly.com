@@ -5,3 +5,8 @@ license 'all_rights'
 description 'Installs/Configures hankehly.com'
 long_description 'Installs/Configures hankehly.com'
 version '0.1.0'
+
+depends 'locale', '~> 1.1.0'
+depends 'sudo'
+depends 'apache2'
+depends 'php', '~> 1.10.0'

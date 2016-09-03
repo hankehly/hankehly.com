@@ -30,7 +30,7 @@
       <tr>
         <td class="column1"></td>
         <td class="column2"></td>
-        <td class="column3">Web Design &#124; Contents Development</td>
+        <td class="column3">Web/iOS Development</td>
       </tr>
       <tr>
         <td class="column1">Where</td>

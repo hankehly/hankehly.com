@@ -1,5 +1,7 @@
 <?php require_once("responsive/includes/header.php"); ?>
 
+<?php date_default_timezone_set('Asia/Tokyo'); ?>
+
 <div id="pagewrap">
 
 <?php include_once("responsive/includes/top-bar.php"); ?>

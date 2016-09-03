@@ -2,7 +2,7 @@
 
             <img id="equalizer-name" src="responsive/images/other/equalizer_name.png" alt="">
 
-            <p id="hank-music-text">When listening to Hank Ehly's forward-thinking sound, it is hard to believe he is 23 years young&mdash;with extraordinary success to come. Hank Ehly produces with experience and natural ability, drawing in fans with sweeping melodies, funky percussion elements and electro heavy style. His passion for creating club-oriented anthems is apparent, keeping dance floors consistently moving and audiences craving for more. With an imaginative mind and a constant drive for what's next, Hank Ehly is destined for greatness and will be on the tips of tongues very soon.</p>
+            <p id="hank-music-text">Hank Ehly produces with experience and natural ability, drawing in fans with sweeping melodies, funky percussion elements and electro heavy style. His passion for creating club-oriented anthems is apparent, keeping dance floors consistently moving and audiences craving for more. With an imaginative mind and a constant drive for what's next, Hank Ehly is destined for greatness and will be on the tips of tongues very soon.</p>
             <p id="tyler-credit">&mdash;Tyler Goff &#124;
 Artist Management &#124; Mammoth MGMT</p>
 

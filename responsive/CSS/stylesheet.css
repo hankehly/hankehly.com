@@ -48,20 +48,6 @@
 	position: relative;
 	top: 40px;
 }
-	#headline a 
-{
-	color: #b2b2b2;
-	text-decoration: none;
-	font-size: 16px;
-  position: absolute;
-  top: 107px;
-  left: 50%;
-  transform: translate(-50%,0);
-}
-#headline a:hover 
-{
-	text-decoration: underline;
-}
 	#headline span
 {
 	color:#3b3b3b

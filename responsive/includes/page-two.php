@@ -45,7 +45,7 @@
       <tr>
         <td class="column1">When</td>
         <td class="column2">:</td>
-        <td class="column3">May 1991 (23)</td>
+        <td class="column3">May 1991 (<?php echo date('Y') - 1991 ?>)</td>
       </tr>
       <tr>
         <td class="column1">Why</td>

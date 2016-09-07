@@ -1870,7 +1870,62 @@ $(document).ready(function () {
             $(this).children('img').fadeTo(300, 1);
             $(this).addClass('activated');
             $('table').fadeOut(300, function () {
-                $('table').empty().append('<tr><td class="column1">Who</td><td class="column2">:</td><td class="column3">Hank Ehly</td></tr><tr><td class="column1">What</td><td class="column2">:</td><td class="column3">English &#124; Japanese Interpreting &#124; Translation</td></tr><tr><td class="column1"></td><td class="column2"></td><td class="column3">Club DJ &#124; Musician &#124; Audio Production</td></tr><tr><td class="column1"></td><td class="column2"></td><td class="column3">Web/iOS Development</td></tr><tr><td class="column1">Where</td><td class="column2">:</td><td class="column3">born: Kansas City, USA</td><tr><td class="column1"></td><td class="column2"></td><td class="column3">currently: Tokyo, JP</td></tr><tr><td class="column1">When</td><td class="column2">:</td><td class="column3">May 1991 ('+hankAgeYears+')</td></tr><tr><td class="column1">Why</td><td class="column2">:</td><td class="column3">I just love making stuff!</td></tr><tr><td class="column1"></td><td class="column2"></td><td class="column3">You can <a href="javascript:void(0)" onclick="goToByScroll(\'page-four\')">contact me</a> directly</td></tr><tr><td class="column1"></td><td class="column2"></td><td class="column3">Or view my <a href="https://www.linkedin.com/in/hankehly" target="_blank">linkedIn profile</a></tr>').fadeIn(400);
+                $('table').empty().append('' +
+                    '<tr>' +
+                    '   <td class="column1">Who</td>' +
+                    '   <td class="column2">:</td>' +
+                    '   <td class="column3">Hank Ehly</td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1">What</td>' +
+                    '   <td class="column2">:</td>' +
+                    '   <td class="column3">English &#124; Japanese Interpreting &#124; Translation</td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1"></td>' +
+                    '   <td class="column2"></td>' +
+                    '   <td class="column3">Club DJ &#124; Musician &#124; Audio Production</td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1"></td>' +
+                    '   <td class="column2"></td>' +
+                    '   <td class="column3">Web/iOS Development</td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1">Where</td>' +
+                    '   <td class="column2">:</td>' +
+                    '   <td class="column3">born: Kansas City, USA</td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1"></td>' +
+                    '   <td class="column2"></td>' +
+                    '   <td class="column3">currently: Tokyo, JP</td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1">When</td>' +
+                    '   <td class="column2">:</td>' +
+                    '   <td class="column3">May 1991 ('+hankAgeYears+')</td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1">Why</td>' +
+                    '   <td class="column2">:</td>' +
+                    '   <td class="column3">I just love making stuff!</td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1"></td>' +
+                    '   <td class="column2"></td>' +
+                    '   <td class="column3">You can <a href="javascript:void(0)" onclick="goToByScroll(\'page-four\')">contact me</a> directly</td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1"></td>' +
+                    '   <td class="column2"></td>' +
+                    '   <td class="column3">Or view my <a href="https://www.linkedin.com/in/hankehly" target="_blank">linkedIn profile</a></td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1"></td>' +
+                    '   <td class="column2"></td>' +
+                    '   <td class="column3">Check out my work on <a href="https://github.com/hank-ehly" target="_blank">GitHub</a></td>' +
+                    '</tr>').fadeIn(400);
             });
         }
     });
@@ -1884,7 +1939,66 @@ $(document).ready(function () {
             $(this).children('img').fadeTo(300, 1);
             $(this).addClass('activated');
             $('table').fadeOut(300, function () {
-                $('table').empty().append('<tr><td class="column1">だれ</td><td class="column2">:</td><td class="column3">ハンク　イーリー</td></tr><tr><td class="column1">なに</td><td class="column2">:</td><td class="column3">日英 通訳 &#124; 翻訳</td></tr><tr><td class="column1"></td><td class="column2"></td><td class="column3">テクノ系DJ &#124; 作曲 &#124; 音楽制作</td></tr><tr><td class="column1"></td><td class="column2"></td><td class="column3">ウェブ・iOS開発</td></tr><tr><td class="column1">どこ</td><td class="column2">:</td><td class="column3">アメリカ育ち、２０歳に来日</td></tr><tr><td class="column1"></td><td class="column2"></td></tr><tr><td class="column1">いつ</td><td class="column2">:</td><td class="column3">平成３年５月 ('+hankAgeYears+')</td></tr><tr><td class="column1">なぜ</td><td class="column2">:</td><td class="column3">物作りに夢中</td></tr><tr><td class="column1"></td><td class="column2"></td><td class="column3">コンタクトは<a href="javascript:void(0)" onclick="goToByScroll(\'page-four\')">こちら</a></td></tr><tr><td class="column1"></td><td class="column2"></td><td class="column3"><a href="https://www.linkedin.com/in/hankehly" target="_blank">linkedIn</a> でもお調べいただけます</td></tr></table>').fadeIn(400);
+                $('table').empty().append('' +
+                    '<tr>' +
+                    '   <td class="column1">だれ</td>' +
+                    '   <td class="column2">:</td>' +
+                    '   <td class="column3">ハンク　イーリー</td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1">なに</td>' +
+                    '   <td class="column2">:</td>' +
+                    '   <td class="column3">ウェブ・iOS開発</td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1"></td>' +
+                    '   <td class="column2"></td>' +
+                    '   <td class="column3">日英 通訳 &#124; 翻訳</td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1"></td>' +
+                    '   <td class="column2"></td>' +
+                    '   <td class="column3">テクノ系DJ &#124; 作曲 &#124; 音楽制作</td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1">どこ</td>' +
+                    '   <td class="column2">:</td>' +
+                    '   <td class="column3">アメリカ育ち、20歳で来日</td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1"></td>' +
+                    '   <td class="column2"></td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1">いつ</td>' +
+                    '   <td class="column2">:</td>' +
+                    '   <td class="column3">平成３年５月 ('+hankAgeYears+')</td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1">なぜ</td>' +
+                    '   <td class="column2">:</td>' +
+                    '   <td class="column3">ものづくりが大好き</td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1"></td>' +
+                    '   <td class="column2"></td>' +
+                    '   <td class="column3">コンタクトは<a href="javascript:void(0)" onclick="goToByScroll(\'page-four\')">こちら</a></td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1"></td>' +
+                    '   <td class="column2"></td>' +
+                    '   <td class="column3">' +
+                    '       <a href="https://www.linkedin.com/in/hankehly" target="_blank">linkedIn</a>でつながりましょう' +
+                    '   </td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1"></td>' +
+                    '   <td class="column2"></td>' +
+                    '   <td class="column3">' +
+                    '       <a href="https://github.com/hank-ehly" target="_blank">GitHub</a>で作ったものを確認' +
+                    '   </td>' +
+                    '</tr>' +
+                    '</table>').fadeIn(400);
             });
         }
     });
@@ -1898,7 +2012,63 @@ $(document).ready(function () {
             $(this).children('img').fadeTo(300, 1);
             $(this).addClass('activated');
             $('table').fadeOut('300', function () {
-                $('table').empty().append('<tr><td class="column1">Quién</td><td class="column2">:</td><td class="column3">Hank Ehly</td></tr><tr><td class="column1">Qué</td><td class="column2">:</td><td class="column3">Japonés &#124; Inglés Interpretación &#124; Traducción</td></tr><tr><td class="column1"></td><td class="column2"></td><td class="column3">Desarrollador de Web/iOS </td></tr><tr><td class="column1"></td><td class="column2"></td><td class="column3">Músico &#124; Ingeniería de Sonido &#124; DJ</td></tr><tr><td class="column1">Dónde</td><td class="column2">:</td><td class="column3">Nació en USA</td></tr><tr><td class="column1"></td><td class="column2"></td><td class="column3">Actualmente vive en Tokio, Japón</td></tr><tr><td class="column1">Cuándo</td><td class="column2">:</td><td class="column3">Mayo 1991 ('+hankAgeYears+')</td></tr><tr><td class="column1">Por qué</td><td class="column2">:</td><td class="column3">Solo me encanta crear cosas!</td></tr><tr><td class="column1"></td><td class="column2"></td><td class="column3">Se puede <a href="javascript:void(0)" onclick="goToByScroll(\'page-four\')">contactarme</a> directamente</td></tr><tr><td class="column1"></td><td class="column2"></td><td class="column3">O ver mi <a href="https://www.linkedin.com/in/hankehly" target="_blank">perfil de linkedIn</a></td></tr>').fadeIn(400);
+                $('table').empty().append('' +
+                    '<tr>' +
+                    '   <td class="column1">Quién</td>' +
+                    '   <td class="column2">:</td>' +
+                    '   <td class="column3">Hank Ehly</td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1">Qué</td>' +
+                    '   <td class="column2">:</td>' +
+                    '   <td class="column3">Japonés &#124; Inglés Interpretación &#124; Traducción</td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1"></td>' +
+                    '   <td class="column2"></td>' +
+                    '   <td class="column3">Desarrollador de Web/iOS </td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1"></td>' +
+                    '   <td class="column2"></td>' +
+                    '   <td class="column3">Músico &#124; Ingeniería de Sonido &#124; DJ</td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1">Dónde</td>' +
+                    '   <td class="column2">:</td>' +
+                    '   <td class="column3">Nació en EU</td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1"></td>' +
+                    '   <td class="column2"></td>' +
+                    '   <td class="column3">Vive en Tokio</td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1">Cuándo</td>' +
+                    '   <td class="column2">:</td>' +
+                    '   <td class="column3">Mayo 1991 ('+hankAgeYears+')</td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1">Por qué</td>' +
+                    '   <td class="column2">:</td>' +
+                    '   <td class="column3">Me gusta crear cosas</td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1"></td>' +
+                    '   <td class="column2"></td>' +
+                    '   <td class="column3">Se puede <a href="javascript:void(0)" onclick="goToByScroll(\'page-four\')">contactarme</a> directamente</td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1"></td>' +
+                    '   <td class="column2"></td>' +
+                    '   <td class="column3">O ver mi <a href="https://www.linkedin.com/in/hankehly" target="_blank">perfil de linkedIn</a></td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '   <td class="column1"></td>' +
+                    '   <td class="column2"></td>' +
+                    '   <td class="column3">Ver mis proyectos en <a href="https://github.com/hank-ehly" target="_blank">GitHub</a></td>' +
+                    '</tr>'
+                    ).fadeIn(400);
             });
         }
     });

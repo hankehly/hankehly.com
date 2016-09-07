@@ -62,6 +62,11 @@
         <td class="column2"></td>
         <td class="column3">View Hank Ehly's <a href="https://www.linkedin.com/in/hankehly" target="_blank">linkedIn profile</a>
       </tr>
+      <tr>
+        <td class="column1"></td>
+        <td class="column2"></td>
+        <td class="column3">Check out my work on <a href="https://github.com/hank-ehly" target="_blank">GitHub</a></td>
+      </tr>
     </table>
   </div>
 </div><!-- page-two-boxes-wrap -->

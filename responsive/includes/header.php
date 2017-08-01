@@ -12,7 +12,8 @@
   <meta name="twitter:creator" content="@hankehly">
   <meta name="twitter:title" content="Hank Ehly Official Homepage">
   <meta name="twitter:description" content="Hank Ehly is a software developer at Mulodo Inc. in Tokyo, Japan. He has a passion for language learning and creative software design.">
-  <meta name="twitter:image" content="https://hankehly.com/responsive/images/meta/twitter_summary_large_image.png">
+<!--  <meta name="twitter:image" content="https://hankehly.com/responsive/images/meta/twitter_summary_large_image.png"> -->
+  <meta name="twitter:image" content="https://hankehly.com/responsive/images/test.jpg">
   <meta name="twitter:image:alt" content="Hank Ehly Official Homepage">
 
   <!-- facebook -->

@@ -6,6 +6,14 @@
   <title>Hank Ehly Official Homepage</title>
   <meta name="description" content="Hank Ehly is a software developer at Mulodo Inc. in Tokyo, Japan. He has a passion for language learning and creative software design.">
 
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W3VTM4V');</script>
+<!-- End Google Tag Manager -->
+
   <!-- twitter  -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@hankehly">
@@ -28,3 +36,7 @@
 </head>
 
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W3VTM4V"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
